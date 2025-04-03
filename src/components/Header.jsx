@@ -1,4 +1,5 @@
 import Logo from "./Logo"
+import Menu from "./Menu"
 
 function Header() {
 
@@ -6,6 +7,8 @@ function Header() {
     <header>
 
       <Logo />
+
+      <Menu />
 
     </header>
 
