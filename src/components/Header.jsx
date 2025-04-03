@@ -5,11 +5,13 @@ function Header() {
 
   return (
     <header>
+      <div className="container">
 
-      <Logo />
+        <Logo />
 
-      <Menu />
+        <Menu />
 
+      </div>
     </header>
 
   )
