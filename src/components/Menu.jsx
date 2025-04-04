@@ -2,20 +2,18 @@ function Menu() {
 
   return (
 
-    <nav>
-      <ul className="menu">
-        <li><a href="#">characters</a></li>
-        <li><a href="#">comics</a></li>
-        <li><a href="#">movies</a></li>
-        <li><a href="#">tv</a></li>
-        <li><a href="#">games</a></li>
-        <li><a href="#">collectibles</a></li>
-        <li><a href="#">video</a></li>
-        <li><a href="#">fans</a></li>
-        <li><a href="#">news</a></li>
-        <li><a href="#">shop</a></li>
-      </ul>
-    </nav>
+    <ul className="menu">
+      <li><a href="#"><p>characters</p></a></li>
+      <li><a href="#"><p>comics</p></a></li>
+      <li><a href="#"><p>movies</p></a></li>
+      <li><a href="#"><p>tv</p></a></li>
+      <li><a href="#"><p>games</p></a></li>
+      <li><a href="#"><p>collectibles</p></a></li>
+      <li><a href="#"><p>video</p></a></li>
+      <li><a href="#"><p>fans</p></a></li>
+      <li><a href="#"><p>news</p></a></li>
+      <li><a href="#"><p>shop</p></a></li>
+    </ul>
 
   )
 
