@@ -52,10 +52,32 @@ header .container {
 
 main {
   background-color: #000000;
+  color: #ffffff;
 }
 
 main h2 {
-  color: #ffffff;
+  /* color: #ffffff; */
   font-size: 40px;
   padding: 40px 0;
+}
+
+
+
+/*** FOOTER ***/
+
+footer {
+  color: #ffffff;
+}
+
+footer .upper {
+  background-color: #0282f9;
+}
+
+footer .central {
+  background-image: url('./assets/images/footer-bg.jpg');
+  background-size: cover
+}
+
+footer .bottom {
+  background-color: #303030;
 }
