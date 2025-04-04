@@ -1,5 +1,8 @@
 import Logo from "./Logo"
 import Menu from "./Menu"
+import menu from '../data/menu.json'
+
+
 
 function Header() {
 
@@ -9,7 +12,7 @@ function Header() {
 
         <Logo />
 
-        <Menu />
+        <Menu data={menu} />
 
       </div>
     </header>
