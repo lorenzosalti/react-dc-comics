@@ -1,13 +1,12 @@
+import Card from "./Card"
+
 function Main({ data }) {
 
   return (
     <main>
       <div className="container">
 
-        {data.map(comic => <div className="card">
-          <img src={comic.thumb} alt={comic.title} />
-          <h3>{comic.title}</h3>
-        </div>)}
+        {data.map((comic, i) => <Card key={i} url={comic.thumb} title={comic.title} />)}
 
       </div>
     </main>
