@@ -1,10 +1,13 @@
-function Main() {
+function Main({ data }) {
 
   return (
     <main>
       <div className="container">
 
-        <h2>  Content goes here  </h2>
+        {data.map(comic => <div className="card">
+          <img src={comic.thumb} alt={comic.title} />
+          <h3>{comic.title}</h3>
+        </div>)}
 
       </div>
     </main>
